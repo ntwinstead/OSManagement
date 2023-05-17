@@ -278,7 +278,7 @@ void pageReplacement()
 void fifo()
 {
     printf("****** FIRST IN FIRST OUT ******\n");
-    printf("Page\tFrame 1\tFrame 2\t Frame3\n");
+    printf("Page\t Frame 1\tFrame 2\t Frame3\n");
 
     int pageRequests[] = {4, 1, 2, 4, 2, 5, 1, 3, 6};
     int pageFaults = 0;
